@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="helper_dialog_easy_title">Tip</string>
+    <string name="helper_dialog_easy_content">Content</string>
+    <string name="helper_dialog_easy_ok">Ok</string>
+    <string name="helper_dialog_easy_cancel">Cancel</string>
+</resources>

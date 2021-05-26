@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 弹出框   -->
+    <color name="helper_dialog_easy_line">#c6c6c6</color>
+    <color name="helper_dialog_easy_blue">#037BFF</color>
+    <color name="helper_dialog_easy_red">#FD4A2E</color>
+    <color name="helper_dialog_easy_gray">#8F8F8F</color>
+</resources>
