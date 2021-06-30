@@ -22,31 +22,31 @@ object HelperLog {
     }
 
     fun v(userTag: String = "", msg: String) {
-        if (!debug) {
+        if (debug) {
             Log.v(TAG, getPrintMsg(userTag, msg))
         }
     }
 
     fun d(userTag: String = "", msg: String) {
-        if (!debug) {
+        if (debug) {
             Log.d(TAG, getPrintMsg(userTag, msg))
         }
     }
 
     fun i(userTag: String = "", msg: String) {
-        if (!debug) {
+        if (debug) {
             Log.i(TAG, getPrintMsg(userTag, msg))
         }
     }
 
     fun w(userTag: String = "", msg: String) {
-        if (!debug) {
+        if (debug) {
             Log.w(TAG, getPrintMsg(userTag, msg))
         }
     }
 
     fun e(userTag: String = "", msg: String) {
-        if (!debug) {
+        if (debug) {
             Log.e(TAG, getPrintMsg(userTag, msg))
         }
     }

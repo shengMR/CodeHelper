@@ -46,4 +46,12 @@
         android:layout_height="wrap_content">
 
     </Button>
+
+    <Button
+        android:id="@+id/bt_turn_wifi"
+        android:text="跳转到Wifi界面"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
 </LinearLayout>

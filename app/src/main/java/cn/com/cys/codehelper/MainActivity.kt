@@ -1,5 +1,6 @@
 package cn.com.cys.codehelper
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.FrameLayout
@@ -79,6 +80,11 @@ class MainActivity : HelperBaseImmersiveActivity() {
             .setOnClickListener {
                 val helperLoadingDialog = HelperLoadingDialog(this)
                 helperLoadingDialog.loading().show()
+            }
+
+        findViewById<Button>(R.id.bt_turn_wifi)
+            .setOnClickListener {
+                startActivity(Intent(this, WifiActivity::class.java));
             }
     }
 
