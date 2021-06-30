@@ -14,8 +14,8 @@ public class HelperSpUtils {
 
     private static Context context;
 
-    public void init(Context context) {
-        context = context.getApplicationContext();
+    public static void init(Context context) {
+        HelperSpUtils.context = context.getApplicationContext();
     }
 
     private static void checkContextAndThrow() {
